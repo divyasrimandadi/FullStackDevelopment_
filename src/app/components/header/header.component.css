@@ -1,0 +1,26 @@
+.header-container{
+    background-color: rgb(255, 255, 255,.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    ;
+    padding: 20px;
+    color:white;
+}
+.header-title{
+    font-size: 30px;
+
+}
+.header-links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-right: 10px;
+
+}
+.header-links li{
+    padding-right: 10px;
+    font-size: 19px;
+    
+
+}

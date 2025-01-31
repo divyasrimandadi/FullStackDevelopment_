@@ -1,0 +1,31 @@
+<main class="'table">
+    <section class="table-header">
+        Student table
+    </section>
+    <section class="table-body">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th> 
+                    <th>Student</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Marks</th>
+                </tr>
+            
+                
+            </thead>
+            <tbody>
+                <tr *ngFor="let student of studentData">
+                    <td>{{student.Id}}</td>
+                    <td>{{student.Student}}</td>
+                    <td>{{student.Phone}}</td>
+                    <td>{{student.Email}}</td>
+                    <td>{{student.Gender}}</td>
+                    <td>{{student.Marks}}</td>
+                </tr>  
+            </tbody>
+        </table>
+    </section>
+</main>
