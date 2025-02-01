@@ -1,5 +1,8 @@
 .app-container{
     min-height: 100vh;
-    background-image:url('../images/back.jpg');
+    background-image:url('../images/OIP\ \(2\).jpg');
     background-size: cover;
+}
+.header__container{
+    margin-bottom: 20px;
 }

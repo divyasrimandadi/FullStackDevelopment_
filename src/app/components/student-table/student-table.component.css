@@ -1,0 +1,28 @@
+.table{
+    width: 100%;
+    color: black; 
+    margin: 10vw; 
+    tab-size: 1vw;
+
+}
+table,th,td{
+    padding: 10px;
+}
+main.table{
+    width: 80vw;
+    background-color: rgb(255, 255, 255,.2);
+    backdrop-filter: blur(6px);
+    border-radius: 6px;
+}
+.table-header{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255,.4);
+    padding: 10px;
+    
+}
+.table-body{
+    font-size: 15px;
+}
+.student-table-container{
+    margin: 30;
+}
