@@ -19,7 +19,7 @@
             <tbody>
                 <tr *ngFor="let student of studentData">
                     <td>{{student.Id}}</td>
-                    <td>{{student.Student}}</td>
+                    <td>{{student.Student | titlecase }}</td>
                     <td>{{student.Phone}}</td>
                     <td>{{student.Email}}</td>
                     <td>{{student.Gender}}</td>

@@ -1,0 +1,14 @@
+.expand{
+    max-height: 0;
+    padding: 0;
+    margin-top: 15px;
+    width: 82vw;;
+    background-color: rgb(255, 255, 255,.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.expand.active{
+    max-height: 240px;
+}
