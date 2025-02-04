@@ -2,13 +2,45 @@
     max-height: 0;
     padding: 0;
     margin-top: 15px;
-    width: 82vw;;
-    background-color: rgb(255, 255, 255,.2);
+    width: 82vw;
+    background-color: rgba(255, 255, 255,.3);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     overflow: hidden;
     transition: all .5s ease-in-out;
 }
+
 .expand.active{
     max-height: 240px;
+}
+.add-button{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,.5);
+    font-size: 1rem;
+
+}
+.add-button:hover{
+    background-color:rgb(255, 255, 255,.8);
+}
+.form_header{
+    padding: 10px;
+    background-color: rgb(255, 255, 255,.6);
+}
+.form_body{
+    background-color: 10px;
+}
+.form_column{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+input{
+    background-color: rgba(0, 0, 0,.5);
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
