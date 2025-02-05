@@ -1,25 +1,41 @@
-<button class="add-button" (click)="toggleExpand()">Add Student</button>
+<button type="button" class="'add-button" (click)="toggleExpand()">Add Student</button>
 
 <div class="expand" [class.active]="isExpand">
-    <section class="form_header">
+    <section class="form-header">
         Enter Student Details:
     </section>
-    <section class="form_body">
-        <form action="">
-            <form action="" class="student_form">
-                <div class="form_column">
-                    <label for="">Enter Id: </label>
-                    <input type="text" name="" id="">
-                </div>
-                <div class="form_column">
-                    <label for="">Enter Name: </label>
-                    <input type="text" name="" id="">
-                </div>
-                <div class="form_column">
-                    <button type="button">Save</button>
-                </div>
-            </form>
+    <section class="form-body">
+        <form action="" class="student-form">
+            <div class="form-column">
+                <label for="">Enter Id:</label>
+                <input type="text" name="id" id="" [(ngModel)]="studentFormObj.id">
+            </div>
+            <div class="form-column">
+                <label for="">Enter Name:</label>
+                <input type="text" name="student" id="" [(ngModel)]="studentFormObj.student">
+            </div>
+            <div class="form-column">
+                <label for="">Enter Phone Number:</label>
+                <input type="text" name="phone" id="" [(ngModel)]="studentFormObj.phone">
+            </div>
+            <div class="form-column">
+                <label for="">Enter Email:</label>
+                <input type="text" name="email" id="" [(ngModel)]="studentFormObj.email">
+            </div>
+            <div class="form-column">
+                <label for="">Enter Gender:</label>
+                <input type="text" name="gender" id="" [(ngModel)]="studentFormObj.gender">
+            </div>
+            <div class="form-column">
+                <label for="">Enter Marks:</label>
+                <input type="text" name="marks" id="" [(ngModel)]="studentFormObj.marks">
+            </div>
+            <div class="form-column">
+                <button type="button" class="save-button" (click)="onStudentSave()">Save</button>
+            </div>
         </form>
     </section>
-
 </div>
+
+
+

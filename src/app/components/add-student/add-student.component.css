@@ -9,28 +9,28 @@
     overflow: hidden;
     transition: all .5s ease-in-out;
 }
-
 .expand.active{
     max-height: 240px;
+
 }
 .add-button{
-    padding: 7px;
+    padding: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255,.5);
     font-size: 1rem;
+}
 
+.add-button :hover{
+    background-color: rgba(255, 255, 255,.8);
 }
-.add-button:hover{
-    background-color:rgb(255, 255, 255,.8);
-}
-.form_header{
+.form-header{
     padding: 10px;
-    background-color: rgb(255, 255, 255,.6);
+    background-color: rgba(255, 255, 255,.6);
 }
-.form_body{
-    background-color: 10px;
+.form-body{
+    padding: 10px;
 }
-.form_column{
+.form-column{
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -38,9 +38,29 @@
     margin-bottom: 8px;
 }
 input{
-    background-color: rgba(0, 0, 0,.5);
+    background-color: rgba(0, 0, 0,.4);
     border: none;
     color: white;
     padding: 5px;
     border-radius: 10px;
+}
+.student-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.save-button{
+    background-color: rgb(9, 107, 97);
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    border-color: rgba(255, 249, 249);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    padding: 3px;
+    width: 100px;
+}
+.save-button:hover{
+    background-color: rgba(255, 255, 255,.9);
+
+
 }
